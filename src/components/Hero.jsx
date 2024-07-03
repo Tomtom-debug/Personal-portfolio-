@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="flex flex-col items-center lg:items-start">
             <h1 className="pb-10 tracking-tight lg:mt-16 lg:text-5xl text-6xl font-bold font-ntr">hi, Samuel here.</h1>
             <span className="mb-4 text-4xl tracking-tight text-gray-600 font-ntr">
-              Contributing and building stuff brings me joy.
+              learning and creating new stuff brings me joy.
             </span>
             <span className="bg-gradient-to-r bg-green-bright bg-clip-text text-4xl tracking-tight text-transparent font-ntr">
               Full Stack Developer
