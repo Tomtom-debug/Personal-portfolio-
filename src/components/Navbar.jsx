@@ -10,9 +10,8 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4">
           <a href="/" className="hover:text-green-bright">Home</a>
           <a href="/about" className="hover:text-green-bright">About</a>
-          <a href="/services" className="hover:text-green-bright">Services</a>
-          <a href="/contact" className="hover:text-green-bright">Contact</a>
-          <a href="/contact" className="hover:text-green-bright">Resume</a>
+          <a href="/services" className="hover:text-green-bright">Experience</a>
+          <a href="/contact" className="hover:text-green-bright">Projects</a>
         </div>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
