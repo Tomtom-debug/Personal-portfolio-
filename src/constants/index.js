@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.mp4";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/project-3.mp4";
+import project4 from "../assets/projects/project-4.mp4";
+import project5 from "../assets/projects/project-5.mp4";
 
 export const HERO_CONTENT = `I'm a Computer Science student at Cornell University, where I fuel my passion for software engineering, programming languages, and machine learning. With every line of code, I strive to push the boundaries of technology, crafting innovative solutions and exploring the endless possibilities of the digital world.`;
 
@@ -55,7 +56,7 @@ export const PROJECTS = [
   },
   {
     title: "Connect-N Game",
-    image: project4,
+    image: project5,
     description:
       "A Connect-N game in Python with customizable boards and win conditions, including a graphical user interface (GUI) and AI player.",
     technologies: ["Python"],
