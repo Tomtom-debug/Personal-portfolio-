@@ -18,37 +18,49 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "RideShare-X",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional iOS app with Google SSO tailored for Cornell University students, facilitating easy and cost-effective transportation",
+    technologies: ["Python, Flask, SQLAlchemy, Docker, Google Cloud, SwiftUI, Postman, AWS"],
+    type: "video",
+    link: "https://github.com/Tomtom-debug/RideShare-X",
   },
   {
-    title: "Task Management App",
+    title: "Active Pulse",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A mobile-responsive blogging website where fitness enthusiasts, health experts, and beginners unite to share journeys, tips, and achievements.",
+    technologies: ["React, HTML, CSS, Javascript"],
+    type: "link",
+    link: "https://github.com/Tomtom-debug/active-pulse",
   },
   {
-    title: "Portfolio Website",
+    title: "Interactive image selection App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "An Enhanced image selection application with an ”intelligent scissors” tool to trace edges using Dijkstra’s shortest path algorithm, built with Java",
+    technologies: ["Java, Swing, GUI"],
+    type: "video",
+    link: "https://www.youtube.com/watch?v=tslHlKmb9GA",
   },
   {
-    title: "Blogging Platform",
+    title: "Alien Invaders Game",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A Space Invaders clone with Integrated player movement controls, alien movement, firing mechanics, and collision detection.",
+    technologies: [" Python, Kivy, GUI  "],
+    type: "video",
+    link: "https://youtu.be/0IfAheGylZw",
+  },
+  {
+    title: "Connect-N Game",
+    image: project4,
+    description:
+      "A Connect-N game in Python with customizable boards and win conditions, including a graphical user interface (GUI) and AI player.",
+    technologies: ["Python"],
+    type: "video",
+    link: "https://youtu.be/vKJF0hPFdgs?si=I0fnAEAEHxYEj0t2",
   },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};
