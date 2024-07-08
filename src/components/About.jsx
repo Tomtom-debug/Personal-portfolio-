@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 const About = () => {
   return (
-    <div id ="about" className= "border-b border-neutral-900 pb-4">
+    <div id ="about" className= "border-b border-neutral-900 pt-24 pb-8">
         <motion.h1 
          whileInView={{opacity:1, x:0}}
          initial={{opacity:0, x:100}}
