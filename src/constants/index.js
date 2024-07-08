@@ -8,32 +8,11 @@ export const HERO_CONTENT = `I'm a Computer Science student at Cornell Universit
 export const ABOUT_TEXT = `I am currently an Undergraduate Research Assistant under the Nexus Scholarship Programme at Lai's Lab, working with Assistant Professor William Lai in the Department of Molecular Biology and Genetics at Cornell University. Beyond my technical pursuits, I find joy in life's simpler pleasures. I'm an avid follower of Jesus, and in my free time, I love playing video games with friends, catching the latest soccer matches, reading captivating books, and staying updated with the news from Ghana. Balancing my professional ambitions with personal interests, I continually seek to grow both as a developer and as an individual.`;
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "May 2024 - Present",
+    role: "Undergraduate Research Assistant",
+    company: "Lai’s Lab",
+    descriptions: ["Contributing to the Computational team in Lai's Lab, focusing on developing predictive models to explore the relationship between motif sequences and protein domain families using high-resolution chromatin binding profiles.", "Building and training a machine learning model to predict motif-domain associations.", "Preprocessed data, Visualized data trends and model performance, effectively communicating results to the research team.",],
+    technologies: ["Torch", "Numpy", "Matplotlib", "Scikit-learn", "Pandas"],
   },
 ];
 
