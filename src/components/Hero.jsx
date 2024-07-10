@@ -44,15 +44,15 @@ const Hero = () => {
               <TypeAnimation
                 sequence={[
                   'Full Stack Developer',
-                  2000, // Delay
+                  2000, 
                   'Software Engineer',
-                  2000, // Delay
+                  2000, 
                   'ML Enthusiast',
-                  2000, // Delay
+                  2000, 
                   'Follower of Jesus',
-                  2000, // Delay
+                  2000, 
                   'Soccer Fan',
-                  2000, // Delay
+                  2000, 
                 ]}
                 wrapper="span"
                 speed={50}
