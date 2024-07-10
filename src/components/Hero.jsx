@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import bitEmoji from "../assets/SamuelBit.png";
 import { motion } from "framer-motion"
+import { TypeAnimation } from 'react-type-animation';
 
 const container = (delay) =>({
   hidden: { x: -100, opacity: 0 },
@@ -39,8 +40,25 @@ const Hero = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.5 }}
-              className="bg-gradient-to-r bg-green-bright bg-clip-text text-3xl tracking-tight text-transparent font-ntr">
-              Full Stack Developer
+              className="bg-gradient-to-r bg-green-bright bg-clip-text text-xl tracking-tight text-transparent font-ntr">
+              <TypeAnimation
+                sequence={[
+                  'Full Stack Developer',
+                  2000, // Delay
+                  'Software Engineer',
+                  2000, // Delay
+                  'ML Enthusiast',
+                  2000, // Delay
+                  'Follower of Jesus',
+                  2000, // Delay
+                  'Soccer Fan',
+                  2000, // Delay
+                ]}
+                wrapper="span"
+                speed={50}
+                style={{ fontSize: '2em' }}
+                repeat={Infinity}
+              />
             </motion.span>
             <motion.p 
               variants={container(1.5)}
