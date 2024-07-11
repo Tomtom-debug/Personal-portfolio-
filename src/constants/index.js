@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "May 2024 - Present",
     role: "Undergraduate Research Assistant",
     company: "Lai’s Lab",
-    descriptions: ["Contributing to the Computational team in Lai's Lab, focusing on developing predictive models to explore the relationship between motif sequences and protein domain families using high-resolution chromatin binding profiles.", "Building and training a machine learning model to predict motif-domain associations.", "Preprocessed data, Visualized data trends and model performance, effectively communicating results to the research team.",],
+    descriptions: ["Contributing to the Computational team in Lai's Lab, focusing on developing predictive models to explore the relationship between motif sequences and protein domain families using high-resolution chromatin binding profiles.", "Building and training a machine learning model to predict motif-domain associations.", "Visualized and analyzed data trends and model performance using Matplotlib",],
     technologies: ["Torch", "Numpy", "Matplotlib", "Scikit-learn", "Pandas"],
   },
 ];
