@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1.mp4";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.mp4";
 import project3 from "../assets/projects/project-3.mp4";
 import project4 from "../assets/projects/project-4.mp4";
 import project5 from "../assets/projects/project-5.mp4";
@@ -33,7 +33,7 @@ export const PROJECTS = [
     description:
       "A mobile-responsive blogging website where fitness enthusiasts, health experts, and beginners unite to share journeys, tips, and achievements.",
     technologies: ["React, HTML, CSS, Javascript"],
-    type: "link",
+    type: "video",
     link: "https://github.com/Tomtom-debug/active-pulse",
   },
   {
