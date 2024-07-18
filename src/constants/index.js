@@ -6,7 +6,7 @@ import project5 from "../assets/projects/project-5.mp4";
 
 export const HERO_CONTENT = `I'm a Computer Science student at Cornell University, where I fuel my passion for software engineering, programming languages, and machine learning. With every line of code, I strive to push the boundaries of technology, crafting innovative solutions and exploring the endless possibilities of the digital world.`;
 
-export const ABOUT_TEXT = `I am currently an Undergraduate Research Assistant under the Nexus Scholarship Programme at Lai's Lab, working with Assistant Professor William Lai in the Department of Molecular Biology and Genetics at Cornell University. Beyond my technical pursuits, I find joy in life's simpler pleasures. I'm an avid follower of Jesus, and in my free time, I love playing video games with friends, catching the latest soccer matches, reading captivating books, and staying updated with the news from Ghana. Balancing my professional ambitions with personal interests, I continually seek to grow both as a developer and as an individual.`;
+export const ABOUT_TEXT = `I am currently an Undergraduate Research Assistant under the Nexus Scholarship Programme at Lai's Lab, working with Assistant Professor William Lai in the Department of Molecular Biology and Genetics at Cornell University. Beyond my technical pursuits, I find joy in life's simpler pleasures. I'm an avid follower of Jesus, and in my free time, I love playing video games with friends, catching the latest soccer matches, reading captivating books, and staying updated with news from Ghana. Balancing my professional ambitions with personal interests, I continually seek to grow both as a developer and as an individual.`;
 export const EXPERIENCES = [
   {
     year: "May 2024 - Present",
